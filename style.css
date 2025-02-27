@@ -1,0 +1,70 @@
+#banner {
+	height: 90vh;
+	background:linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('culture.jpeg');
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
+.btn{
+	padding: 15px 30px;
+	transition: all 0.4s ease;
+	font-weight: 800;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	font-size: 18px;
+
+}
+.btn-brand {
+	background-color: black;
+	border: 3px solid #000;
+	color: #F2AA4CFF
+
+}
+
+.btn-brand:hover {
+	background-color: transparent;
+	color: pink;
+	border-color: black;
+
+}
+
+.btn-outline-success {
+    padding: 10px !important;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;	
+}
+.card-img-top{
+	width: 50%;
+}
+.card {
+	padding: 25px 20px;
+	border: 2px solid black;
+	transition: all ease-in .4s;	
+	color:white;
+	background-color: black;
+}
+.card:hover{
+	box-shadow: 0 0 45px 0 black;
+	transform: scale(1.1);
+	background-color: orange;
+}
+.card:hover .card-title,
+.card:hover .card-text{
+	color: black;
+}
+
+section{
+	padding: 100px 0;
+}
+
+#sugpon h2{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 65px;
+	color:orange;
+	margin-bottom: 30px;
+	
+}

@@ -1,0 +1,39 @@
+#banner {
+	height: 90vh;
+	background:linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(wallpaper-lamborghini-car-with-smoke-galaxy-vibe-generated-ai_843138-353.avif);
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
+.btn{
+	padding: 15px 30px;
+	transition: all 0.4s ease;
+	font-weight: 800;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	font-size: 18px;
+
+}
+.btn-brand {
+	background-color: black;
+	border: 3px solid #000;
+	color: #F2AA4CFF
+
+}
+
+.btn-brand:hover {
+	background-color: transparent;
+	color: pink;
+	border-color: black;
+
+}
+
+.btn-outline-success {
+    padding: 10px !important;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
