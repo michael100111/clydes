@@ -147,109 +147,34 @@ footer {
 	border-radius: 1px;
 }
 
-//* Global Styles */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Banner section */
-#banner {
-    height: 90vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Responsive adjustments */
-@media (max-width: 1200px) {
-    /* Large screens like desktops */
-    .card {
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 992px) {
-    /* Medium screens like tablets */
-    .navbar-nav {
-        text-align: center;
-    }
-    #home h1 {
-        font-size: 50px;
-    }
-    #home p {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    /* Small screens like mobile */
-    
-    /* Center the navbar items */
-    .navbar-nav {
-        font-size: 14px;
-        text-align: center; /* Center the navbar links */
-        width: 100%; /* Ensure navbar takes up the full width */
-    }
-    /* Center content in the home section */
-    #home h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-    #home p {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    /* For Sugpon Section */
-    #sugpon h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-    
-    /* Cards should take full width on smaller screens and be centered */
-    .card {
-        width: 100% !important; /* Ensure cards take full width on smaller screens */
-        margin: 10px 0; /* Ensure cards have space between them */
-    }
-    .card-img-top {
-        width: 100%;
+@media screen and (max-width: 768px) {
+    .navbar{
         height: auto;
-        object-fit: cover; /* Ensures images fit the card correctly */
     }
-
-    /* Center the content of the section */
-    .container {
-        text-align: center; /* Center the content inside containers */
+    #banner h1{
+        font-size: 40px !important;
     }
-
-    /* For rows in sections like Sugpon and Reviews */
-    .row-cols-1 {
+    #sugpon h2{
+        font-size: 40px !important;
+    }
+    #sugpon .col{
         display: flex;
-        flex-direction: column;
         align-items: center;
-    }
-
-    /* Center the testimonials in the review section */
-    .testimonials {
-        text-align: center;
-        padding: 10px;
-    }
-
-    /* Center the FAQ section content */
-    .accordion-button {
-        text-align: center; /* Ensure the accordion buttons are centered */
-    }
-    
-    /* Adjust the footer content */
-    .footer .container {
-        text-align: center;
-    }
-
-    /* Adjust the newsletter form */
-    .input-group {
         justify-content: center;
     }
-    .btn-outline-light {
-        margin-left: 10px;
+    section{
+        padding: 60px 20px !important;
+    }
+    #footer{
+        padding: 60px 20px !important;;
+    }
+    #about img{
+        height: 350px;
+        width: 350px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    #about h2{
+        font-size: 40px !important;
     }
 }
