@@ -83,3 +83,131 @@ section{
 .testimonials:hover {
 	transform: scale(1.1);
 }
+
+#faq {
+	background-color: black;
+}
+
+.faq-section {
+	max-width: 800px;
+	margin: auto;
+}
+
+.accordion-item {
+	margin-bottom: 30px;
+	border-radius: 0 !important;
+}
+
+.accordion-button {
+	background-color: white;
+	border: none;
+	border-bottom: 1px solid wheat;
+	border-radius: 0 !important;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: 500;
+	color: darkcyan;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+	border-left: 3px solid blue;
+	padding: 10px 15px;
+	margin-left: 0;
+	background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: blue;
+	color: white;
+}
+
+.accordion-button:hover {
+	background-color: blue;
+	color: white;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+}
+
+#footer ul.list-unstyled li a {
+	color: ffffff;
+	text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+	color: olivedrab;
+}
+
+#footer button {
+	border-radius: 1px;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Banner section */
+#banner {
+    height: 90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    /* Large screens like desktops */
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Medium screens like tablets */
+    .navbar-nav {
+        text-align: center;
+    }
+    #home h1 {
+        font-size: 50px;
+    }
+    #home p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Small screens like mobile */
+    .navbar-nav {
+        font-size: 14px;
+    }
+    #home h1 {
+        font-size: 40px;
+    }
+    #home p {
+        font-size: 24px;
+    }
+    #sugpon h1 {
+        font-size: 40px;
+    }
+    .card {
+        width: 100% !important; /* Ensure cards take full width on smaller screens */
+    }
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        text-align: center; /* Center the content on smaller screens */
+    }
+    .row-cols-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
