@@ -34,7 +34,7 @@
 .btn-outline-success {
     padding: 10px !important;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;	
 }
 .card-img-top{
@@ -42,7 +42,7 @@
 }
 .card {
 	padding: 25px 20px;
-	border: 2px solid black;
+	border: 2px solid whitesmoke;
 	transition: all ease-in .4s;	
 	color:white;
 	background-color: black;
@@ -50,7 +50,7 @@
 .card:hover{
 	box-shadow: 0 0 45px 0 black;
 	transform: scale(1.1);
-	background-color: orange;
+	background-color: blueviolet;
 }
 .card:hover .card-title,
 .card:hover .card-text{
@@ -67,4 +67,19 @@ section{
 	color:orange;
 	margin-bottom: 30px;
 	
+}
+
+.wew {
+	width: 65px;
+}
+.testimonials {
+	border: 3px solid yellow;
+	padding: 20px;
+	margin-top: 20PX;
+	background-color: blueviolet;
+	color: aqua;
+	transition: all ease-in .4s;
+}
+.testimonials:hover {
+	transform: scale(1.1);
 }
